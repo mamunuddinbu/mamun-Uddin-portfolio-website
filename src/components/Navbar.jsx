@@ -25,6 +25,13 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = 'https://drive.google.com/uc?export=download&id=1oxPP-a2battKU6riL9yF4r1DcexdhBVK';
+    link.download = 'resume.pdf';
+    link.click();
+  };
+
   return (
     <nav
       className={`${
@@ -45,7 +52,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Mamun &nbsp;
-            <span className='sm:block hidden'> | MERN Supremacy</span>
+            <span className='sm:block hidden'> | MERN supremacist</span>
           </p>
         </Link>
 
@@ -61,6 +68,10 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li className="text-secondary btn hover:text-white text-[18px] font-medium cursor-pointer">
+            <button onClick={handleDownload}>Download Resume</button>
+          </li>
+
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
