@@ -76,10 +76,8 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -109,58 +107,46 @@ const technologies = [
     icon: docker,
   },
 ];
-
+//Education
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "E-Shefa",
-    icon: starbucks,
+    title: "Higher Secondary School Certificate (HSC)",
+    company_name: "Bandarban Govt. College",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Mar 2018 - Dec 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Result: GPA 4.92 (out of 5.00)",
+      "Board: Chattagram",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Computer Basic & ICT Application Course",
+    company_name: "Department of Youth Development(DYD) Bangladesh",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jul 2021 - Dec 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Grade: A+",
+      "From: Department of Youth Development(DYD) Bangladesh",
+      
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Complete Web Development Course with Jhankar Mahbub",
+    company_name: "Programming Hero",
+    iconBg: "#383E56",
+    date: "28 Dec, 2022 - 17 Jun 2023",
+    points: [
+      "I've successfully completed full-stack web development course from Programming Hero ",
+    ],
+  },
+  {
+    title: "Computer Science & Engineering(CSE)",
+    company_name: "Bandarban University",
     icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    iconBg: "#383E56",
+    date: "Jan 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I am doing graduation from Bandarban University",
     ],
   },
 ];

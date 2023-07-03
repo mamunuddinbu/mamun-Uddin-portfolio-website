@@ -4,6 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
+import {FaGraduationCap} from "react-icons/fa"
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -23,13 +24,8 @@ const ExperienceCard = ({ experience }) => {
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
-        <div className='flex justify-center items-center w-full h-full'>
-          <img
-            src={experience.icon}
-            alt={experience.company_name}
-            className='w-[60%] h-[60%] object-contain'
-          />
-        </div>
+          <FaGraduationCap></FaGraduationCap>
+        
       }
     >
       <div>
@@ -64,7 +60,7 @@ const Experience = () => {
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
+          Education.
         </h2>
       </motion.div>
 

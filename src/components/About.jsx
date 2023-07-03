@@ -45,43 +45,42 @@ const About = () => {
       </motion.div>
 
       <motion.div
-  variants={fadeIn("", "", 0.1, 1)}
-  className="mt-4 flex flex-col-reverse md:flex-row text-secondary text-[17px] leading-[30px]"
->
-  <div className="w-5/6">
-    <p className="text-xl mb-6">
-      Hi, I'm Md. Mamun Uddin, a Full Stack Web Developer with expertise
-      in the MERN (MongoDB, Express, React, Node.js) stack. I have a
-      passion for creating responsive and user-friendly web applications
-      that deliver a great user experience.
-    </p>
-    <p className="text-xl mb-6">
-      With several years of experience in web development, I have worked
-      on various projects, ranging from small business websites to complex
-      web applications. I'm skilled in front-end development using modern
-      JavaScript frameworks like React. and I'm proficient in back-end
-      development using Node.js and Express. I also have experience
-      working with databases such as MongoDB.
-    </p>
-    <p className="text-xl">
-      My goal is to build innovative and efficient web solutions that meet
-      the client's requirements and exceed their expectations. I am a
-      dedicated and detail-oriented developer, always striving for code
-      quality and continuous improvement. I love learning new technologies
-      and staying up-to-date with the latest trends in web development.
-    </p>
-  </div>
-  <div className="relative ">
-    <img
-      src={Kaptai}
-      alt=""
-      className="object-cover object-center h-3/4 rounded-2xl border-2 border-green-500 m-8 "
-    />
-  </div>
-</motion.div>
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 flex flex-col-reverse md:flex-row text-secondary text-[17px] leading-[30px]"
+      >
+        <div className="w-5/6">
+          <p className="text-xl mb-6">
+            I'm a Full Stack Web Developer with expertise in the MERN (MongoDB,
+            Express, React, Node.js) stack. I have a passion for creating
+            responsive and user-friendly web applications that deliver a great
+            user experience.
+          </p>
+          <p className="text-xl mb-6">
+            With several years of experience in web development, I have worked
+            on various projects, ranging from small business websites to complex
+            web applications. I'm skilled in front-end development using modern
+            JavaScript frameworks like React. and I'm proficient in back-end
+            development using Node.js and Express. I also have experience
+            working with databases such as MongoDB.
+          </p>
+          <p className="text-xl">
+            My goal is to build innovative and efficient web solutions that meet
+            the client's requirements and exceed their expectations. I am a
+            dedicated and detail-oriented developer, always striving for code
+            quality and continuous improvement. I love learning new technologies
+            and staying up-to-date with the latest trends in web development.
+          </p>
+        </div>
+        <div className="relative ">
+          <img
+            src={Kaptai}
+            alt=""
+            className="object-cover object-center h-3/4 rounded-2xl border-2 border-green-500 m-8 "
+          />
+        </div>
+      </motion.div>
 
-
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap max-w-5xl justify-between">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
